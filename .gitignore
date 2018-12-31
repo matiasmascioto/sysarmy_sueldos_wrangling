@@ -6,6 +6,7 @@ quilt_packages/
 
 *.yml
 !environment.yml
+!sysarmy_sueldos_wrangling.yml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
