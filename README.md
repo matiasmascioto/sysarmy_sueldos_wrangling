@@ -14,6 +14,7 @@ This project cleans and concatenates the results of IT salary surveys made by [s
   * */data/input/2017_2.xlsx*: [Link](https://goo.gl/g3C1bj)
   * */data/input/2018_1.xlsx*: [Link](https://goo.gl/bFDCnA)
   * */data/input/2018_2.xslx*: [Link](https://goo.gl/Lf2d8Z)
+  * */data/input/2019_1.xslx*: [Link](https://goo.gl/CX8tTd)
 * Currencies data
   * */data/input/USDARS_CUR.json*: [Link](https://www.bloomberg.com/markets/api/bulk-time-series/price/USDARS%3ACUR?timeFrame=5_YEAR)
   * */data/input/USDBOB_CUR.json*: [Link](https://www.bloomberg.com/markets/api/bulk-time-series/price/USDBOB%3ACUR?timeFrame=5_YEAR)
@@ -38,6 +39,14 @@ This project cleans and concatenates the results of IT salary surveys made by [s
 ## Other files
 *  *sysarmy_sueldos_wrangling.ipynb*: Jupyter Notebook that contains details and codes for the data wrangling process.
 *  *sysarmy_sueldos_wrangling.yml*: Configuration file
+
+## ToDo
+- [ ] *edad* a números enteros
+- [ ] *experiencia* a números enteros
+- [ ] *antiguedad* a números enteros
+- [ ] normalizar/categorizar *trabajo*
+- [ ] normalizar/categorizar *discapacidad*
+- [ ] normalizar/categorizar *eventos_tecnologia*
 
 ## Sources
 *  I took some ideas from this project: https://github.com/gerardobort/sysarmy-data 

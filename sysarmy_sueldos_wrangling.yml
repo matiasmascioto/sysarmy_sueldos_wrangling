@@ -8,81 +8,102 @@ input:
     thousands: "."
 
 rename: {
-       "Me identifico": "sexo",
-       "Soy": "sexo",  # 2017_01
-       "Tengo": "edad",
+       "A qué está atado el bono": "dependencia_bono", 
+       "Actividad principal": "actividad_principal", # 2019_1
+       "Automation o funcional?": "automation_funcional",
        "Años de experiencia": "experiencia",
        "Años en el puesto actual": "antiguedad_puesto",
-       "¿Tenés gente a cargo?": "gente_a_cargo",
-       "¿Gente a cargo?": "gente_a_cargo", # 2018_01
-       "Gente a cargo?": "gente_a_cargo", # 2017_01
-       "Nivel de estudios alcanzado": "nivel_estudios",
-       "Estado": "estado_carrera",
+       "Bases de datos": "tecnologias_4", # 2019_01
+       "Beneficios extra": "beneficios_extra",
+       "Beneficios": "beneficios_extra", # 2015_02
+       "Bruto o neto?": "tipo_sueldo_mensual", # 2017_01
+       "Cambiaste de empresa en los últimos 6 meses?": "cambio_empresa_6_meses", # 2017_01
+       "Cantidad de empleados": "cantidad_empleados",
        "Carrera": "carrera",
+       "Cuál fue el principal motivo de cambio?": "motivo_cambio_empresa", # 2017_01
+       "Cuánto cobrás por guardia (en tu moneda local)": "sueldo_guardia",
+       "Cómo creés que está tu sueldo con respecto a Enero 2016": "sueldo_respecto_6_meses", # 2016_02
+       "Cómo creés que está tu sueldo con respecto a Enero 2017": "sueldo_respecto_6_meses", # 2017_02
+       "Cómo creés que está tu sueldo con respecto a Julio 2015": "sueldo_respecto_6_meses", # 2016_01
+       "Cómo creés que está tu sueldo con respecto a Julio 2016": "sueldo_respecto_6_meses", # 2017_01
+       "Cómo creés que está tu sueldo con respecto a como estaba hace 6 meses": "sueldo_respecto_6_meses", # 2015_2
+       "Cómo creés que está tu sueldo con respecto a enero 2018":  "sueldo_respecto_6_meses",
+       "Cómo creés que está tu sueldo con respecto a julio 2017": "sueldo_respecto_6_meses", # 2018_01
+       "Cómo creés que está tu sueldo con respecto al último semestre": "sueldo_respecto_6_meses", # 2019_01
+       "Cómo creés que está tu sueldo hoy en día": "conformidad_sueldo", # 2015_2
+       "De qué % fue el ajuste anual?": "porcentaje_ajuste",  # 2016_01
+       "De qué % fue el ajuste?": "porcentaje_ajuste",  # 2017_01
+       "Estado": "estado_carrera",
+       "Frameworks, herramientas y librerías": "tecnologias_3", #2019_01
+       "Gente a cargo?": "gente_a_cargo", # 2017_01
+       "IDEs": "tecnologias_6", #2019_01
+       "Lenguajes de programación": "tecnologias_2", # 2019_01
+       "Me identifico": "sexo",
+       "Nivel de estudios alcanzado": "nivel_estudios",
+       "Plataformas": "tecnologias_1",  # 2019_01
+       "QA / Testing": "tecnologias_5", # 2019_01
+       "Qué porcentaje?": "porcentaje_ajuste", # 2015_02
+       "Qué tan conforme estás con tu sueldo?": "conformidad_sueldo", # 2017_01
        "Realizaste cursos de especialización": "cursos_especializacion",
-       "Trabajo de": "trabajo",
+       "Recibís algún tipo de bono": "bono",
+       "Salario bruto mensual (AR$)": "sueldo_mensual",     # 2015_02
+       "Salario mensual (AR$)": "sueldo_mensual", # 2016_01
+       "Salario mensual (en tu moneda local)": "sueldo_mensual",
+       "Salario mensual BRUTO (en tu moneda local)": "sueldo_mensual",  # 2019_01
+       "Soy": "sexo",  # 2017_01
        "Tecnologías que utilizás": "tecnologias_1",
        "Tecnologías que utilizás.1": "tecnologias_2",
        "Tecnologías que utilizás.2": "tecnologias_3",
-       "Automation o funcional?": "automation_funcional",
        "Tecnologías que utilizás.3": "tecnologias_4",
        "Tecnologías que utilizás.4": "tecnologias_5",
-       "¿Tenés guardias?": "guardias",
-       "Cuánto cobrás por guardia (en tu moneda local)": "sueldo_guardia",
-       "¿Porcentaje, bruto o neto?": "tipo_sueldo_guardia",
+       "Tengo": "edad",
        "Tipo de contrato": "tipo_contrato",
-       "Salario mensual (en tu moneda local)": "sueldo_mensual",
-       "Salario bruto mensual (AR$)": "sueldo_mensual",     # 2015_02
-       "Salario mensual (AR$)": "sueldo_mensual", # 2016_01
-       "¿Bruto o neto?": "tipo_sueldo_mensual",
-       "Bruto o neto?": "tipo_sueldo_mensual", # 2017_01
-       "¿Qué tan conforme estás con tu sueldo?": "conformidad_sueldo",
-       "Qué tan conforme estás con tu sueldo?": "conformidad_sueldo", # 2017_01
-       "Cómo creés que está tu sueldo hoy en día": "conformidad_sueldo", # 2015_2
-       "Cómo creés que está tu sueldo con respecto a enero 2018":  "sueldo_respecto_6_meses",
-       "Cómo creés que está tu sueldo con respecto a julio 2017": "sueldo_respecto_6_meses", # 2018_01
-       "Cómo creés que está tu sueldo con respecto a Enero 2017": "sueldo_respecto_6_meses", # 2017_02
-       "Cómo creés que está tu sueldo con respecto a Julio 2016": "sueldo_respecto_6_meses", # 2017_01
-       "Cómo creés que está tu sueldo con respecto a Enero 2016": "sueldo_respecto_6_meses", # 2016_02
-       "Cómo creés que está tu sueldo con respecto a Julio 2015": "sueldo_respecto_6_meses", # 2016_01
-       "Cómo creés que está tu sueldo con respecto a como estaba hace 6 meses": "sueldo_respecto_6_meses", # 2015_2
-       "Recibís algún tipo de bono": "bono",
-       "A qué está atado el bono": "dependencia_bono",
-       "¿Tuviste ajustes por inflación lo que va del año?": "ajuste_inflacion",
-       "¿Tuviste ajustes por inflación en 2017?": "ajuste_inflacion", # 2018_01, # 2017_02
+       "Trabajo de": "trabajo",
+       "Tuviste ajustes por inflación en 2015?": "ajuste_inflacion", # 2016_01
        "Tuviste ajustes por inflación en 2016?": "ajuste_inflacion", # 2017_01
        "Tuviste ajustes por inflación este año?": "ajuste_inflacion", # 2016_02
-       "Tuviste ajustes por inflación en 2015?": "ajuste_inflacion", # 2016_01
        "Tuviste algún aumento de sueldo en los últimos 6 meses?": "ajuste_inflacion", # 2015_02
-       "¿De qué % fue el ajuste?": "porcentaje_ajuste",
-       "De qué % fue el ajuste?": "porcentaje_ajuste",  # 2017_01
-       "De qué % fue el ajuste anual?": "porcentaje_ajuste",  # 2016_01
-       "Qué porcentaje?": "porcentaje_ajuste", # 2015_02
-       "Cantidad de empleados": "cantidad_empleados",
+       "¿A cuántos kilómetros de tu casa queda la oficina?": "distancia_oficina_km", # 2019_1
+       "¿A qué eventos de tecnología asististe en el último año?": "eventos_tecnologia", # 2019_1
+       "¿Bruto o neto?": "tipo_sueldo_mensual",
        "¿Cambiaste de empresa en los últimos 6 meses?": "cambio_empresa_6_meses",
-       "Cambiaste de empresa en los últimos 6 meses?": "cambio_empresa_6_meses", # 2017_01
        "¿Cuál fue el principal motivo de cambio?": "motivo_cambio_empresa",
-       "Cuál fue el principal motivo de cambio?": "motivo_cambio_empresa", # 2017_01
-       "Beneficios extra": "beneficios_extra",
-       "Beneficios": "beneficios_extra" # 2015_02
+       "¿Cómo calificás las políticas de diversidad e inclusión?": "politicas_diversidad_inclusion", # 2019_1
+       "¿De qué % fue el ajuste?": "porcentaje_ajuste",
+       "¿Gente a cargo?": "gente_a_cargo", # 2018_01
+       "¿La recomendás como un buen lugar para trabajar?": "recomendacion_empresa", # 2019_1
+       "¿Porcentaje, bruto o neto?": "tipo_sueldo_guardia",
+       "¿Qué SO usás en tu laptop/PC para trabajar?": "tecnologias_7", # 2019_01
+       "¿Qué tan conforme estás con tu sueldo?": "conformidad_sueldo",
+       "¿Sentís que esto te dificultó el conseguir trabajo?": "discapacidad_dificulta_busqueda_trabajo", # 2019_1
+       "¿Tenés algún tipo de discapacidad?": "discapacidad", # 2019_1
+       "¿Tenés gente a cargo?": "gente_a_cargo",
+       "¿Tenés guardias?": "guardias",
+       "¿Tuviste ajustes por inflación en 2017?": "ajuste_inflacion", # 2018_01, # 2017_02
+       "¿Tuviste ajustes por inflación en 2018?": "ajuste_inflacion", # 2019_01
+       "¿Tuviste ajustes por inflación lo que va del año?": "ajuste_inflacion",
+       "¿Y en tu celular?": "tecnologias_8" #2019_01
 }
 
 sorted_columns: ["periodo", "periodo_fecha", "pais", "provincia", "sexo", "edad", "experiencia", "antiguedad_puesto",
                  "gente_a_cargo", "nivel_estudios", "estado_carrera", "carrera", "cursos_especializacion", "trabajo",
                  "tecnologias", "tipo_contrato", "sueldo_mensual_neto", "sueldo_mensual_neto_usd", "conformidad_sueldo",
                  "sueldo_respecto_6_meses", "ajuste_inflacion", "porcentaje_ajuste", "cantidad_empleados",
-                 "cambio_empresa_6_meses", "motivo_cambio_empresa", "beneficios_extra"]
+                 "cambio_empresa_6_meses", "motivo_cambio_empresa", "actividad_principal", "recomendacion_empresa",
+                 "politicas_diversidad_inclusion", "distancia_oficina_km", "discapacidad",
+                 "discapacidad_dificulta_busqueda_trabajo", "eventos_tecnologia", "beneficios_extra"]
 
 currencies:
      "Argentina": "ARS"
      "Bolivia": "BOB"
      "Chile": "CLP"
      "Colombia": "COP"
-     "Cuba": "CUP"
      "Costa Rica": "CRC"
+     "Cuba": "CUP"
      "Ecuador": "USD"
      "El Salvador": "USD"
      "Guatemala": "GTQ"
+     "Honduras": "HNL"
      "México": "MXN"
      "Nicaragua": "NIO"
      "Panamá": "PAB"
@@ -92,11 +113,10 @@ currencies:
      "República Dominicana": "DOP"
      "Uruguay": "UYU"
      "Venezuela": "VEF"
-     "Honduras": "HNL"
 
 output:
   path_or_buf: "data/output/encuestas.csv"
   sep: ";"
   encoding: "utf-8"
   index: False
-  decimal: ","
+  decimal: "."
