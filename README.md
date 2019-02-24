@@ -41,7 +41,6 @@ This project cleans and concatenates the results of IT salary surveys made by [s
 *  *sysarmy_sueldos_wrangling.yml*: Configuration file
 
 ## ToDo
-- [ ] *edad* a números enteros
 - [ ] *experiencia* a números enteros
 - [ ] *antiguedad* a números enteros
 - [ ] normalizar/categorizar *trabajo*
