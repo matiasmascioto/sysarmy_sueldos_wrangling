@@ -15,6 +15,7 @@ This project cleans and concatenates the results of IT salary surveys made by [s
   * */data/input/2018_1.xlsx*: [Link](https://goo.gl/bFDCnA)
   * */data/input/2018_2.xslx*: [Link](https://goo.gl/Lf2d8Z)
   * */data/input/2019_1.xslx*: [Link](https://goo.gl/CX8tTd)
+  * */data/input/2019_2.xslx*: [Link Argentina](https://bit.ly/sueldos20192arg) - [Link LATAM](https://bit.ly/sueldos20192latam)
 * Currencies data
   * */data/input/USDARS_CUR.json*: [Link](https://www.bloomberg.com/markets/api/bulk-time-series/price/USDARS%3ACUR?timeFrame=5_YEAR)
   * */data/input/USDBOB_CUR.json*: [Link](https://www.bloomberg.com/markets/api/bulk-time-series/price/USDBOB%3ACUR?timeFrame=5_YEAR)
